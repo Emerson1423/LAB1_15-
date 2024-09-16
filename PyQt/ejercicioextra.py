@@ -1,3 +1,6 @@
+#implementa una interfaz gráfica que permite registrar hasta tres empleados y calcular la renta sobre su sueldo el cual el resultado lo muestre en la ventana.  
+
+
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QTextEdit, QVBoxLayout, QWidget, QFormLayout
 

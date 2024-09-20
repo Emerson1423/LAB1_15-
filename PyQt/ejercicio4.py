@@ -59,10 +59,10 @@ class Ventana(QMainWindow):
     def mostra_terminal(self):
         # Obtener los datos de los campos
         nombre = self.nombre_input.text()
-        tipo = self.tipo.text()
+     
         peso = self.peso_input.text()
         edad = self.edad_input.text()
-
+        tipo = self.tipo_input.text()
         # Crear un texto para mostrar los datos
         registro = f'Nombre: {nombre}\ntipo de animal: {tipo}\nPeso: {peso}\nEdad: {edad}'
         
